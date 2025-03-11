@@ -34,7 +34,7 @@ jobs:
           publish_branch: 'deploy'
           publish_dir: './dist'
       - name: 'Upload Compiled Files as Artifact'
-        uses: 'actions/upload-artifact@v3'
+        uses: 'actions/upload-artifact@v2'  # Updated version
         with:
           name: compiled-files
           path: ./dist  # Adjust this path if your compiled files are in a different directory
