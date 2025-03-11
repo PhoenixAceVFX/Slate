@@ -1,6 +1,10 @@
 name: 'Compile SCSS'
 
-on: 'push'
+on:
+  push:
+    branches:
+      - main  # You can specify the branch, or leave it out for all pushes
+  workflow_dispatch:  # This allows manual triggering from the GitHub UI
 
 jobs:
   build:
