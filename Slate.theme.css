@@ -7,10 +7,10 @@
  * @invite TeRQEPb
 */
 
-@import url('https://discordstyles.github.io/Slate/dist/Slate.css');
+@import url('https://raw.githubusercontent.com/PhoenixAceVFX/Slate/refs/heads/deploy/dist/Slate.css');
 
-@import url("https://discordstyles.github.io/Slate/Serverlist.css");
-@import url("https://discordstyles.github.io/Slate/ToolbarActions.css");
+@import url("https://raw.githubusercontent.com/PhoenixAceVFX/Slate/refs/heads/deploy/Serverlist.css");
+@import url("https://raw.githubusercontent.com/PhoenixAceVFX/Slate/refs/heads/deploy/ToolbarActions.css");
 /*
   Basic Variables
   See available vars here: https://github.com/DiscordStyles/Slate/wiki
